@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section01{background: url("../img/sec1.jpg") no-repeat center center;background-size: cover}
+.section02{background: url("../img/sec2.jpg") no-repeat center center;background-size: cover}
+.section03{background: url("../img/sec3.jpg") no-repeat center center;background-size: cover}
+.section04{background: url("../img/sec4.jpg") no-repeat center center;background-size: cover}
+.section05{background: url("../img/sec5.jpg") no-repeat center center;background-size: cover}
+/*01*/
+div.box{
+    transition: all 2s;
+}
+.section01{
+    position: relative;
+    overflow: hidden;
+}
+.section01 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sec-ch-01{
+    width: 554px;
+    height: 174px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -277px;
+    background: red;
+    background: url("../img/title.png") no-repeat center center;
+}
+.sec-ch-02{
+    width:554px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /*display: none;*/
+    margin-left: -277px;
+    background: url("../img/logo.png") no-repeat center center;
+}
+.text01{
+    width:554px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -277px;
+    color: #94a7c6;
+    font-size: 14px;
+    line-height: 18px;
+}
+.sec-ch-03{
+    width:100%;
+    height: 392px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url("../img/sec1-2.png") no-repeat center center;
+}
+.sec-ch-04{
+    width:100%;
+    height: 377px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url("../img/sec1-3.png") no-repeat center center;
+}
+/*02*/
+.section02{
+    position: relative;
+    overflow: hidden;
+}
+.section02 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sec-ch-min{
+    width:1024px;
+    height: 300px;
+    /*background: red;*/
+    color: #5c94a2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+    z-index: 10;
+}
+.sec-ch-min01{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 22%;
+    font-size: 24px;
+    line-height: 24px;
+}
+.sec-ch-min02{
+    width: 653px;
+    height: 44px;
+    position: absolute;
+    top: 20px;
+    opacity:0;
+    left: 22%;
+    background: url("../img/subtitle.png") no-repeat center center;
+    background-size: cover;
+}
+.sec-ch-min03{
+    width: 639px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 100px;
+    opacity: 0;
+    left: 22%;
+}
+.sec-ch-min04{
+    width:640px;
+    height: 480px;
+    position: absolute;
+    top:130px;
+    left: 21%;
+    opacity: 0;
+    background: url("../img/xinwen.jpg") no-repeat center center;
+    background-size: cover;
+}
+/*03*/
+.section03{
+    position: relative;
+    overflow: hidden;
+}
+.section03 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sec03-min{
+    width:1024px;
+    height:300px;
+    /*background: red;*/
+    color: #748a9e;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+    z-index: 20;
+}
+.sec03-min01{
+    position: absolute;
+    top: 124px;
+    left: 22%;
+    font-size: 24px;
+    line-height: 24px;
+    opacity: 0;
+}
+.sec03-min02{
+    width: 512px;
+    height: 45px;
+    position: absolute;
+    top: 160px;
+    left: 22%;
+    background: url("../img/subtitle2.png") no-repeat center center;
+    background-size: cover;
+    opacity: 0;
+}
+.sec03-min03{
+    width: 510px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 240px;
+    opacity: 0;
+    left: 22%;
+}
+.sec03-min04{
+    width: 233px;
+    height: 250px;
+    position: absolute;
+    top: 425px;
+    left: 6%;
+    opacity: 0;
+    background: url("../img/no3-1.png") no-repeat center center;
+    background-size: cover;
+}
+.sec03-min05{
+    width:211px;
+    height: 299px;
+    position: absolute;
+    top: 365px;
+    left: 51%;
+    opacity: 0;
+    background: url("../img/no3-3.png") no-repeat center center;
+    background-size: cover;
+}
+.sec03-min06{
+    width: 819px;
+    height: 315px;
+    position: absolute;
+    top: 300px;
+    opacity: 0;
+    left: 7%;
+    background: url("../img/no3-2.png") no-repeat center center;
+    background-size: cover;
+}
+/*04*/
+.section04{
+    position: relative;
+    overflow: hidden;
+}
+.section04 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sec04-min{
+    width:1024px;
+    height: 300px;
+    /*background: red;*/
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+    color: #748a9e;
+    z-index: 20;
+}
+.sec04-min01{
+    position: absolute;
+    top: 100px;
+    left: 18%;
+    opacity: 0;
+    font-size: 24px;
+    line-height: 24px;
+}
+.sec04-min02{
+    width: 512px;
+    height: 45px;
+    position: absolute;
+    top: 150px;
+    left: 18%;
+    opacity: 0;
+    background: url("../img/subtitle4.png") no-repeat center center;
+    background-size: cover;
+    /*opacity: 0;*/
+}
+.sec04-min03{
+    width: 430px;
+    /*height: 90px;*/
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 378px;
+    /*opacity: 0;*/
+    left: 7%;
+    opacity: 0;
+    color: #fffde1;
+    font-size: 16px;
+    line-height: 20px;
+}
+.sec04-min04{
+    width: 892px;
+    height: 472px;
+    position: absolute;
+    top: 314px;
+    left: 16%;
+    opacity: 0;
+    background: url("../img/no4img.png") no-repeat center center;
+    background-size: cover;
+}
+.sec04-min05{
+    width:53px;
+    height: 71px;
+    position: absolute;
+    top: 423px;
+    left: 44%;
+    opacity: 0;
+    background: url("../img/pic_2_1.png") no-repeat center center;
+    background-size: cover;
+}
+.sec04-min06{
+    width:441px;
+    height: 380px;
+    position: absolute;
+    top: 463px;
+    left:22%;
+    opacity: 0;
+    background: url("../img/no4-1.png") no-repeat center center;
+    background-size: cover;
+}
+/*05*/
+.section05{
+    position: relative;
+    overflow: hidden;
+}
+.section05 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sec05-min{
+    width: 1024px;
+    height: 300px;
+    /*background: red;*/
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+}
+.sec05-min01{
+    position: absolute;
+    top: 138px;
+    left: 18%;
+    /*opacity: 0;*/
+    font-size: 24px;
+    line-height: 24px;
+}
+.sec05-min02{
+
+}
